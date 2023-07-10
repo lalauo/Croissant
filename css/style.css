@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 768px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h1,
+.homepage-link,
+.gallery-link,
+.contact-link,
+.recipe-link,
+.email {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.definition {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(27, 27, 197);
+  display: block;
+}
+
+a:hover {
+  color: rgb(200, 4, 4);
+}
+
+img {
+  border-radius: 4px;
+}
+
+.intro {
+  padding: 50px;
+  margin-top: -30px;
+  margin-bottom: -50px;
+}
+
+.recipe-link {
+  font-size: 18px;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: -60px;
+}
+
+.making-process {
+  display: block;
+  margin: auto;
+  transform: scaleX(-1) rotate(90deg);
+}
+
+.gallery {
+  display: flex;
+}
+
+.croissant {
+  flex: 1;
+  margin: 60px auto;
+}
+
+.homepage-link,
+.gallery-link,
+.contact-link {
+  margin: 10px;
+}
+
+.email {
+  margin: 60px;
+}
